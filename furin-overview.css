@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+body{
+    background-color:#EFF4FF;
+    font-family: "Zen Old Mincho";
+    color:#707070;
+}
+
+.container{
+    width:95%;
+    margin:0 auto;
+}
+
+/*-------------*/
+
+/*HEADER*/
+header{
+    height:100px;
+    padding-top:22px;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+        /*L*/
+.header-left{
+    display:flex;
+    flex-direction: row;
+}
+.header-logo img{
+    width:70px;
+}
+.header-Ltxt{
+    margin-left:25px;
+}
+#sub-ttl{
+    font-size:15px;
+}
+#main-ttl{
+    color:#829ED1;
+    font-size:25px;
+}
+#header-ttl{
+    font-size:45px;
+}
+
+        /*R*/
+.header-right{
+    text-align:right;
+}
+.header-num{
+    margin-left:20px;
+}
+/*NAVIGATION*/
+.top-nav{
+    background-color:#829ED1 ;
+    height:80px;
+}
+.top-ul{
+    display:flex;
+    flex-direction: row;
+    color:white;
+    text-align: center;
+}
+.top-ul li{
+    width:16%;
+    font-size:20px;
+    line-height:80px;
+}
+/* TOP-VIEW */
+.top-view{
+    width:100%;
+    height:600px;
+    background-image: url(bg-overview-furin.jpg);
+    background-size:cover;
+    background-position:bottom
+}
+/* CONTENTS */
+.contents{
+    width:90%;
+    margin:0 auto;
+    margin-top:50px;
+}
+.contents p{
+    font-size:16px;
+}
+/* OVERVIEW */
+.overview-wrapper{
+    margin-bottom:30px;
+}
+.overview-h1{
+    border-top:10px white solid;
+    height:80px;
+    background-color:#829ED1;
+    padding-left:30px;
+}
+.overview-wrapper h1{
+    line-height:70px;
+    color:white;
+    font-size:20px; 
+}
+
+.overview{
+    margin-top:20px;
+    background-color:white;
+    padding:20px 30px;
+}
+    /* LIST */
+.list{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:15px;
+}
+.Llist{
+    width:30%;
+}
+.Rlist{
+    width:60%;
+}
+/* PAGE TOP BTN */
+.page-top-btn{
+    position:fixed;
+    bottom:30px;
+    right:30px;
+}
+.page-top-btn a{
+    font-size:40px;
+    display:block;
+}
+.page-top-btn:hover{
+    opacity:0.8;
+}
+/* FOOTER */
+footer{
+    width:100%;
+    height:330px;
+    background-color:white;
+    padding-top:30px;
+    text-align:center;
+}
+
+        /* FOOTER-TTL */
+.footer-ttl{
+    text-align:center;
+}
+.footer-ttl img{
+    width:70px;
+}
+.Fsub-ttl{
+    color:#829ED1;
+}
+        /* FOOTER-ADDRESS */
+.footer-address{
+    margin-top:15px;
+}
+        /* FOOTER-UL */
+.footer-nav{
+    margin-top:15px;
+}
+.footer-nav ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.footer-nav a{
+    margin:0 10px;
+}
